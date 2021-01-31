@@ -1,0 +1,5 @@
+.imgList {
+  display: flex;
+  align-items: stretch;
+  width: 70%;
+}
