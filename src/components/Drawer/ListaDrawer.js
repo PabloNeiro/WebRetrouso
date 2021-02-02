@@ -4,7 +4,6 @@ import PhotoLibraryIcon from '@material-ui/icons/PhotoLibrary';
 import AlbumIcon from '@material-ui/icons/Album';
 import SchoolIcon from '@material-ui/icons/School';
 import GroupIcon from '@material-ui/icons/Group';
-import CalendarTodayIcon from '@material-ui/icons/CalendarToday';
 import PermPhoneMsgIcon from '@material-ui/icons/PermPhoneMsg';
 import LockIcon from '@material-ui/icons/Lock';
 import ExtensionIcon from '@material-ui/icons/Extension';

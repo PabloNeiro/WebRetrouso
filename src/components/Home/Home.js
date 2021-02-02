@@ -4,7 +4,6 @@ import homeStyles from './homeStyles';
 import MainPage from './MainPage';
 import { pageColor } from '../Common/exports';
 import NavAndDrawer from './NavAndDrawer';
-import Footer from '../Footer/Footer';
 
 function Home() {
   document.body.style = `background:${pageColor}`;
@@ -16,7 +15,6 @@ function Home() {
       <main className={classes.content}>
         <Toolbar />
         <MainPage />
-        {/* <Footer /> */}
       </main>
     </div>
   );

@@ -1,4 +1,4 @@
-import { AppBar, Box, IconButton, Link, Toolbar, Typography, withWidth } from '@material-ui/core';
+import { AppBar, IconButton, Link, Toolbar, Typography, withWidth } from '@material-ui/core';
 import React from 'react';
 import MenuIcon from '@material-ui/icons/Menu';
 import clsx from 'clsx';
@@ -9,7 +9,7 @@ import Drawer from '@material-ui/core/Drawer';
 import Lista from '../Drawer/ListaDrawer';
 import { useTheme } from '@material-ui/core/styles';
 import retrouso from '../Home/Images/retrouso.jpg';
-import { drawerColor, navbarColor } from '../Common/exports';
+import { drawerColor } from '../Common/exports';
 function NavBarPage(props) {
   const classes = navBarStyles();
   const theme = useTheme();

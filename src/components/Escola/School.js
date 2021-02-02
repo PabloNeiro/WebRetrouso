@@ -5,7 +5,6 @@ import NavBarPage from '../NavBar/NavBarPage';
 import NavAndDrawer from '../Home/NavAndDrawer';
 import CssBaseline from '@material-ui/core/CssBaseline';
 import { pageColor } from '../Common/exports';
-import Footer from '../Footer/Footer';
 
 function School() {
   document.body.style = `background: ${pageColor}`;
@@ -22,7 +21,6 @@ function School() {
         </Hidden>
         <main className={classes.content}>
           <div className={classes.toolbar} />
-          {/* <Footer /> */}
         </main>
       </div>
     </>
